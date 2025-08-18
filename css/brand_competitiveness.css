@@ -25,7 +25,7 @@ body {
 }
 
 .subTitle {
-    font-size: clamp(14px, 2vw, 24px);
+    font-size: clamp(14px, 2vw, 18px);
 }
 
 .text {
@@ -59,7 +59,7 @@ body {
 .been_img {
     position: fixed;
     top: 50%;
-    left: 50%; /* 49% → 50% */
+    left: 49%; /* 49% → 50% */
     transform: translate(-50%, -50%);
     z-index: 1;
     max-width: 200px; /* 최대 크기 제한 */
@@ -84,7 +84,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     box-sizing: border-box;
 }
 
@@ -92,16 +92,18 @@ body {
     position: relative;
     z-index: 2;
     max-width: 300px; /* 최대 크기 제한 */
+    right: -10px;
 }
 
 .sec2_subTitle {
-    font-size: clamp(14px, 1.5vw, 24px);
+    font-size: clamp(14px, 1.5vw, 20px);
+    font-weight: 700;
     min-width: 250px; /* 370px → 250px */
     max-width: 100%; /* 최대 너비 제한 */
 }
 
 .sec2_text {
-    font-size: clamp(12px, 1vw, 16px); /* 0.3vw → 1vw */
+    font-size: clamp(12px, 1vw, 14px); /* 0.3vw → 1vw */
     margin-top: 40px;
 }
 
@@ -128,6 +130,9 @@ body {
 }
 
 .sec3_text{
+    text-align: center;
+}
+.sec3_img{
     text-align: center;
 }
 

@@ -94,6 +94,7 @@ body {
   padding:24px;
   color: white; 
   z-index:2;
+  top: 100px;
 }
 
 .store-banner::after{
